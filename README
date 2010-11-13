@@ -1,0 +1,28 @@
+Church Attendance: A PHP/PostgreSQL web app designed to take church attendance in a distributed fashion.
+
+    Copyright (C) 2010 David Krider
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Basic Instructions:
+
+* Create a PostgreSQL database to hold the data using the `createdb' command.
+* In "attendance.sql", change the name "dbuser" to the database user that owns the newly created database.
+* Use "attendance.sql" to load the schema from backup.
+* Manually insert one administrative user into the "users" table.
+* Edit "connect.php" and change the variables to the appropriate values.
+* Edit "header.html" to taste.
+* Setup the web server to point to the directory that contains the application.
+
+There's software in here for producing a PDF report of the directory. This has it's own copyright information.
